@@ -1,0 +1,2 @@
+# MinishiftCluster
+Deployed using Minishift
