@@ -1,5 +1,7 @@
 from flask import Flask
+
 application = Flask(__name__)
+db = SQLAlchemy(application)
 
 @application.route('/')
 def hello_world():
